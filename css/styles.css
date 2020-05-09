@@ -108,3 +108,9 @@
 .form-control::-webkit-input-placeholder {
   color: white;
 }
+.icon{
+  text-align: center;
+}
+.last{
+  text-align: center;
+}
