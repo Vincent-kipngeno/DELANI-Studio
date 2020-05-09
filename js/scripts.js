@@ -26,3 +26,12 @@ $(document).ready(function(){
     $(".text").fadeToggle();
   });
 });
+$(document).ready(function(){
+  $(".form").submit(function(event){
+    event.preventDefault();
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var comment = $("#message").val();
+    message(name,email);
+  });
+});
