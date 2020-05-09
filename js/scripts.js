@@ -21,3 +21,8 @@ $(document).ready(function(){
     $(".details3").toggle();
   });
 });
+$(document).ready(function(){
+  $("hover-image").hover(function(){
+    $(".text").fadeToggle();
+  });
+});
