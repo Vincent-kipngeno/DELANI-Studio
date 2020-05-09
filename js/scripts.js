@@ -5,33 +5,3 @@ var message = function (name, email) {
     alert(name + "We have received your message.Thankyou for reaching out to us");
   }
 }
-
-
-$(document).ready(function(){
-  $(".details-section1").click(function(){
-    $(".icon1").toggle();
-    $(".details1").toggle();
-  });
-  $(".details-section2").click(function(){
-    $(".icon2").toggle();
-    $(".details2").toggle();
-  });
-  $(".details-section3").click(function(){
-    $(".icon3").toggle();
-    $(".details3").toggle();
-  });
-});
-$(document).ready(function(){
-  $("hover-image").hover(function(){
-    $(".text").fadeToggle();
-  });
-});
-$(document).ready(function(){
-  $(".form").submit(function(event){
-    event.preventDefault();
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var comment = $("#message").val();
-    message(name,email);
-  });
-});
