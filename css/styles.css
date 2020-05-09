@@ -141,3 +141,8 @@
 .hover-image:hover .text{
   display:block;
 }
+@media only screen and (max-width: 768px) {
+  [class*="col-3"]{
+    width: 100%;
+  }
+}
