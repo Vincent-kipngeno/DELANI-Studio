@@ -76,3 +76,35 @@
   text-align: center;
   padding-top: 20px;
 }
+.name{
+  max-width: 50%;
+}
+.email{
+  max-width: 50%;
+}
+#message{
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.contact{
+  text-align: center;
+}
+.contact{
+  background-image: url("./backgroundImages/c_image.jpg");
+  background-blend-mode: multiply;
+  background-color: rgba(0,0,0,0.4);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+#name , #email , #message{
+  background: transparent;
+  color: white;
+}
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
