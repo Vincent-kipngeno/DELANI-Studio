@@ -43,3 +43,23 @@
     transform: translateY(-5px);
   }
 }
+.about{
+  text-align: center;
+  padding-top: 20px;
+  font-family: serif;
+}
+.services{
+  text-align: center;
+  background-image: url("./backgroundImages/s_image.jpg") ;
+  color: white;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Copse', serif;
+  font-size: 18px;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: multiply;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
