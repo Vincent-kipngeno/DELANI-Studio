@@ -1,0 +1,10 @@
+.heading{
+  background-image: url("./backgroundImages/h_img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  padding-top: 30vh;
+}
