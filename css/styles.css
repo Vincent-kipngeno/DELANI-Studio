@@ -114,3 +114,12 @@
 .last{
   text-align: center;
 }
+.details{
+  display: none;
+  font-family: fantasy;
+}
+.details-section{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
